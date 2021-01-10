@@ -7,7 +7,9 @@ All example are developed using C
 Currently developed
 
 - [x] Caesar cipher
+- [x] Atbash cipher
 - [ ] ...
+
 
 
 :it:
