@@ -8,8 +8,8 @@ Currently developed
 
 - [x] Caesar cipher
 - [x] Atbash cipher
+- [x] Albam cipher
 - [ ] ...
-
 
 
 :it:
