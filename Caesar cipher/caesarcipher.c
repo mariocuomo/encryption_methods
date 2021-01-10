@@ -24,12 +24,12 @@ int main()
 	char *stringa;
 	int distanza=0;
 
-	printf("Il cifrario di Cesare è un algoritmo di crittografia a sostituzione\n");
+	printf("Il cifrario di Cesare e' un algoritmo di crittografia a sostituzione\n");
 	printf("Ogni lettera e' sostituita con un'altra a distanza fissa\n");
 	printf("Vediamo un esempio.\n");
 	printf("Se prendo la stringa 'ab' e scelgo distanza 3 ottengo 'de'\n");
 	printf("Il codice e' ciclico, se prendo la stringa 'yz' e scelgo distanza 3 ottengo 'bc'\n");
-	printf("Per semplicità scegliamo l'alfabeto internazionale composto di 26 caratteri minuscoli\n");
+	printf("Per semplicita' scegliamo l'alfabeto internazionale composto di 26 caratteri minuscoli\n");
 
 	printf("Inserisci la stringa che vuoi cifrare\n");
 	printf("Stringa: ");
@@ -37,7 +37,7 @@ int main()
 
 
 	while(!stringaCorretta(tmp_stringa)){
-		printf("Per semplicità scegliamo l'alfabeto internazionale composto di 26 caratteri minuscoli\n");
+		printf("Per semplicita' scegliamo l'alfabeto internazionale composto di 26 caratteri minuscoli\n");
 		printf("Inserisci la stringa che vuoi cifrare\n");
 		printf("Stringa: ");
 		scanf("%s",tmp_stringa);
