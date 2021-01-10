@@ -59,7 +59,6 @@ int main()
 	}
 
 	distanza=distanza%26;
-	printf("Distanza %d\n",distanza);
 	printf("Ecco la stringa cifrata con il cifrario di Cesare\n");
 
 	cifraStringa(stringa, distanza);
