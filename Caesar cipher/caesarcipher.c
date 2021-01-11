@@ -74,8 +74,8 @@ void cifraStringa(char* stringa, int distanza){
 	for(i=0; i<l;i++){
 		_tmp = tmp[i]+distanza;
 		
-		if(_tmp-122>0)
-			tmp[i]= 97+(_tmp-122);
+		if(_tmp-122>=0)
+			tmp[i]= 96+(_tmp-122);
 		else
 			tmp[i]=_tmp;
 	}
