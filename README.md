@@ -4,7 +4,7 @@
 
 Simple github repository about different encryption methods of string.
 
-All example are developed using C
+All examples are developed using C
 
 Currently developed
 
