@@ -8,6 +8,14 @@ La funzione cifra la stringa in input.
 */
 void cifraStringa();
 
+/*
+Funzione per verificare se una stringa è composta da soli catteri dell'alfabeto internazionale minuscoli
+In input è passato per riferimento una stringa.
+Ritorna 1 in caso positivo, 0 in caso negativo
+*/
+int stringaCorretta();
+
+
 int main()
 {
 	char tmp_stringa[30];
@@ -75,4 +83,14 @@ void cifraStringa(char* stringa, int distanza){
 
 	strcpy(stringa,tmp);
   	free(tmp);
+}
+
+int stringaCorretta(char* stringa){
+	int i=0;
+	int l = strlen(stringa);
+	for(i=0; i<l;i++)
+		if(stringa[i]<97 || stringa[i]>122)
+			return 0;
+
+	return 1;
 }
