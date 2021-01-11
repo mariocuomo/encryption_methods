@@ -1,5 +1,7 @@
 # encryption_methods
 
+![Gaius Iulius Caesar](https://github.com/mariocuomo/encryption_methods/blob/main/images/GC.jpg)
+
 Simple github repository about different encryption methods of string.
 
 All example are developed using C
