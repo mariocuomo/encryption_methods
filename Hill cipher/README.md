@@ -13,7 +13,6 @@ For simplicity we consider n = 3 and the following matrix as a key
     <thead>
       <tr>
         <th></th>
-        <th><code>#</code></th>
         <th><code>1</code></th>
         <th><code>2</code></th>
         <th><code>3</code></th>
