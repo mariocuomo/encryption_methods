@@ -36,7 +36,6 @@ For simplicity we consider n = 3 and the following matrix as a key
             <td>1</td>
             <td>3</td>
             <td>3</td>
-            <td>3</td>
         </tr>
     </tbody>
   </table>
