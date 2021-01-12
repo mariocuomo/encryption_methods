@@ -65,24 +65,19 @@ int main()
 
 
 void cifraStringa(char* stringa, int distanza){
-	char *tmp;
-	strcpy(tmp, stringa);
 	int i=0;
-	int l = strlen(tmp);
+	int l = strlen(stringa);
 	int _tmp;
 
 	for(i=0; i<l;i++){
-		_tmp = tmp[i]+distanza;
+		_tmp = stringa[i]+distanza;
 		
 		if(_tmp-122>=0)
-			tmp[i]= 96+(_tmp-122);
+			stringa[i]= 96+(_tmp-122);
 		else
-			tmp[i]=_tmp;
+			stringa[i]=_tmp;
 	}
 
-
-	strcpy(stringa,tmp);
-  	free(tmp);
 }
 
 int stringaCorretta(char* stringa){

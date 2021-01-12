@@ -52,21 +52,14 @@ int main()
 
 
 void cifraStringa(char* stringa){
-	char *tmp;
-	strcpy(tmp, stringa);
 	int i=0;
-	int l = strlen(tmp);
+	int l = strlen(stringa);
 	int _tmp;
 
 	for(i=0; i<l;i++){
-		_tmp = tmp[i]-97;
-		
-		tmp[i]= 122-_tmp;
+		_tmp = stringa[i]-97;
+		stringa[i]= 122-_tmp;
 	}
-
-
-	strcpy(stringa,tmp);
-  	free(tmp);
 }
 
 int stringaCorretta(char* stringa){
