@@ -165,8 +165,6 @@ int trovaColonna(int* vettore, int lettera){
 		if(vettore[i]==lettera){
 			return i;
 		}
-
-
 	return 0;
 }
 
