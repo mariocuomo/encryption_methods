@@ -44,17 +44,17 @@ Let's see an example.
 
 If I take the string 'cde' I have to perform the following steps
 
-c=2 d=3 e=4 represents the vector (2,3,4).
+c=2 d=3 e=4 represents the vector **[2,3,4]**.
 
-The first character is obtained as (2,3,4) x (15 2 4) = 2x15 + 3x2 + 4x4 = 30 + 6 + 16 = 52.
+The first character is obtained as **[2,3,4]** x **[15 2 4]** = 2x15 + 3x2 + 4x4 = 30 + 6 + 16 = 52.
 
 52mod26 returns 0 which represents 0. Replace the first character with 'a'.
 
-The second character is obtained as (2,3,4) x (3 13 5) = 2x3 + 3x13 + 4x5 = 6 + 39 + 20 = 65.
+The second character is obtained as **[2,3,4]** x **[3 13 5]** = 2x3 + 3x13 + 4x5 = 6 + 39 + 20 = 65.
 
 65mod26 returns 13. Replace the second character with 'n'.
 
-The third character is obtained as (2,3,4) x (1 3 3) = 2x1 + 3x3 + 4x3 = 2 + 9 + 12 = 23.
+The third character is obtained as **[2,3,4]** x **[1 3 3]** = 2x1 + 3x3 + 4x3 = 2 + 9 + 12 = 23.
 
 23mod26 returns 23. Replace the third character with 'x'.
 
