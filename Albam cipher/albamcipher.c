@@ -4,7 +4,7 @@
 
 /*
 Funzione per cifrare una stringa.
-In input è passato per riferimento una stringa e per valore un intero.
+In input è passato per riferimento una stringa.
 La funzione cifra la stringa in input.
 */
 void cifraStringa();
@@ -20,7 +20,6 @@ int main()
 {
 	char tmp_stringa[30];
 	char *stringa;
-	int distanza=0;
 
 	printf("Il cifrario di Albam e' un algoritmo di crittografia a sostituzione\n");
 	printf("Ogni lettera e' sostituita con la corrispondente a 13 posizioni successive o precedenti.\n");
@@ -50,12 +49,12 @@ int main()
 
 	printf("Ecco la stringa cifrata con il cifrario di Albam\n");
 
-	cifraStringa(stringa, distanza);
+	cifraStringa(stringa);
 	printf("Stringa cifrata: %s",stringa);
 }
 
 
-void cifraStringa(char* stringa, int distanza){
+void cifraStringa(char* stringa){
 	char *tmp;
 	strcpy(tmp, stringa);
 	int i=0;

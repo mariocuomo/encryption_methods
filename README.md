@@ -12,6 +12,7 @@ Currently developed
 - [x] [Atbash cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Atbash%20cipher)
 - [x] [Caesar cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Caesar%20cipher)
 - [x] [Polybius square](https://github.com/mariocuomo/encryption_methods/tree/main/Polybius%20square)
+- [x] [Vigenere cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Vigenere%20cipher)
 - [ ] ...
 
 

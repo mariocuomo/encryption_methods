@@ -5,7 +5,7 @@
 
 /*
 Funzione per cifrare una stringa.
-In input è passato per riferimento una stringa e per valore un intero.
+In input è passato per riferimento una stringa.
 La funzione cifra la stringa in input.
 */
 void cifraStringa();
