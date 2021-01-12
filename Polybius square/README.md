@@ -8,53 +8,53 @@ Each letter is replaced with the corresponding coordinate in the following chess
     <thead>
       <tr>
         <th></th>
-        <th>1</th>
-        <th>2</th>
-        <th>3</th>
-        <th>4</th>
-        <th>5</th>
+        <th><code>1</code></th>
+        <th><code>2</code></th>
+        <th><code>3</code></th>
+        <th><code>4</code></th>
+        <th><code>5</code></th>
       </tr>
     </thead>
     <tbody>
         <tr>
-            <td>1</td>
+            <td><code>1</code></td>
             <td>a</td>
             <td>b</td>
-            <td><code>c</code></td>
-            <td><code>d</code></td>
-            <td><code>e</code></td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
         </tr>
         <tr>
-            <td>2</td>
+            <td><code>2</code></td>
             <td>f</td>
             <td>g</td>
-            <td><code>h</code></td>
-            <td><code>i,j</code></td>
-            <td><code>k</code></td>
+            <td>h</td>
+            <td>i,j</td>
+            <td>k</td>
         </tr>
         <tr>
-            <td>3</td>
+            <td><code>3</code></td>
             <td>l</td>
             <td>m</td>
-            <td><code>n</code></td>
-            <td><code>o</code></td>
-            <td><code>p</code></td>
+            <td>n</td>
+            <td>o</td>
+            <td>p</td>
         </tr>
         <tr>
-            <td>4</td>
+            <td><code>4</code></td>
             <td>q</td>
             <td>r</td>
-            <td><code>s</code></td>
-            <td><code>t</code></td>
-            <td><code>u</code></td>
+            <td>s</td>
+            <td>t</td>
+            <td>u</td>
         </tr>
        <tr>
-            <td>5</td>
+            <td><code>5</code></td>
             <td>v</td>
             <td>w</td>
-            <td><code>x</code></td>
-            <td><code>y</code></td>
-            <td><code>z</code></td>
+            <td>x</td>
+            <td>y</td>
+            <td>z</td>
         </tr>
     </tbody>
   </table>
