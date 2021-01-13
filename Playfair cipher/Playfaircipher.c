@@ -134,6 +134,10 @@ int main()
 		scanf("%s",tmp_stringa);
 	}
 
+	for(int i=0;i<strlen(tmp_stringa);i++)
+		if(tmp_stringa[i]=='j')
+			tmp_stringa[i]='i';
+
 
 	stringa=malloc(strlen(tmp_stringa) * sizeof(char));
 	strcpy(stringa,tmp_stringa);
@@ -185,8 +189,6 @@ void cifraStringa(char* stringa){
 						sostituisciValore(p,stringa,i);
 						break;
 				}	
-		//printf("che ho sostituito con %c%c\n",stringa[i], stringa[i+1]);
-
 	}
 }
 
@@ -203,8 +205,6 @@ int stringaCorretta(char* stringa){
 int verificaCondizione(parametro* p){
 	int i=0;
 	int tmp=0;
-
-	//modificaCampiStruttura(&p);
 
 	//condizione 1
 	if(p->primaLettera == p->secondaLettera){
