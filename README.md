@@ -8,6 +8,7 @@ All examples are developed using C
 
 Currently developed
 
+- [x] [ADFGX cipher](https://github.com/mariocuomo/encryption_methods/tree/main/ADFGX%20cipher)
 - [x] [Albam cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Albam%20cipher)
 - [x] [Atbash cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Atbash%20cipher)
 - [x] [Caesar cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Caesar%20cipher)
