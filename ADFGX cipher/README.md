@@ -91,7 +91,6 @@ In the example the result is the following
 <table>
     <thead>
       <tr>
-        <th></th>
         <th><code>Z</code></th>
         <th><code>A</code></th>
         <th><code>I</code></th>
@@ -145,7 +144,6 @@ The resulting matrix is ​​the following
 <table>
     <thead>
       <tr>
-        <th></th>
         <th><code>A</code></th>
         <th><code>I</code></th>
         <th><code>N</code></th>
