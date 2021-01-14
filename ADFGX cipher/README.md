@@ -70,11 +70,11 @@ If I take the string 'ciao come stai' the first thing to do is to decipher it as
 
 REMEMBER: each letter is replaced by the row/column pair.
 
-Instead of 'ciao' you get 'GF GD AF DF.
+Instead of 'ciao' you get 'GF GD AF DF'.
 
-Instead of 'come' you get 'GF DF XA XF.
+Instead of 'come' you get 'GF DF XA XF'.
 
-Instead of 'stai' you get 'FG AD AF GD.
+Instead of 'stai' you get 'FG AD AF GD'.
 
 The final string is GF GD AF DF GF DF XA XF FG AD AF GD.
 
