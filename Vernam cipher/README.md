@@ -14,11 +14,11 @@ Here is the Baudot code table.
     <thead>
       <tr>
         <th>LETTER</th>
-        <th><code></code></th>
-        <th><code></code></th>
-        <th><code></code></th>
-        <th><code></code></th>
-        <th><code></code></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
