@@ -15,6 +15,7 @@ Currently developed
 - [x] [Hill cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Hill%20cipher)
 - [x] [Playfair cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Playfair%20cipher)
 - [x] [Polybius square](https://github.com/mariocuomo/encryption_methods/tree/main/Polybius%20square)
+- [x] [Vernam cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Vernam%20cipher)
 - [x] [Vigenere cipher](https://github.com/mariocuomo/encryption_methods/tree/main/Vigenere%20cipher)
 - [ ] ...
 
