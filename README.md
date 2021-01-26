@@ -20,4 +20,4 @@ Currently developed
 - [ ] ...
 
 
-:it:
+:it: <b>Approfondimento disponibile su Amazon [qui](https://www.amazon.it/dp/B08TZ6TC3Y/)</b>.
