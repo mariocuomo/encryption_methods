@@ -50,7 +50,7 @@ int main()
 	printf("Distanza: ");
 	scanf("%d", &distanza);
 
-	while(distanza<=0){
+	while(distanza<0){
 		printf("La distanza deve essere positiva\n");
 		printf("Distanza: ");
 		scanf("%d", &distanza);
@@ -70,12 +70,10 @@ void cifraStringa(char* stringa, int distanza){
 	int _tmp;
 
 	for(i=0; i<l;i++){
-		_tmp = stringa[i]+distanza;
-		
-		if(_tmp-122>=0)
-			stringa[i]= 96+(_tmp-122);
-		else
-			stringa[i]=_tmp;
+		_tmp=stringa[i]-97;
+		_tmp+=distanza;
+		_tmp=_tmp%26;
+		stringa[i]=_tmp+97;
 	}
 
 }
