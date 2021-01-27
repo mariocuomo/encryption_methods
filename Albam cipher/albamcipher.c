@@ -60,13 +60,11 @@ void cifraStringa(char* stringa){
 	int _tmp;
 
 	for(i=0; i<l;i++){
-		if(stringa[i]<110){
-			stringa[i]=stringa[i]+13;
-		}
-		else{
-			_tmp = stringa[i]-109;
-			stringa[i]=96+_tmp;
-		}
+		_tmp=stringa[i]-97;
+		
+		_tmp+=13;
+		_tmp=_tmp%26;
+		stringa[i]=_tmp+97;
 	}
 }
 
